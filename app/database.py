@@ -10,6 +10,7 @@ class DatabaseConnection:
             port = "3306",
             password='464743',
             database='sales'
+                     
             )
     return cls._connection
 
